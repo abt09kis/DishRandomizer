@@ -29,13 +29,28 @@ function restaurantsInPostalCode(postalCode) {
     });
 }
 
+function simulateUserInput(typeOfDish) {
+    return typeOfDish;
+}
+
 function getRandomizedRestaurant(clientKey) {
     client.registerMethod("randomRestaurant", "https://api.hungrig.se/foodcategories/" + clientKey + "/foodcourses?deliveryType=1", "GET");
 
-
     // Plats 0 är alltid förrätter ? 
     // Köra switch på index beroende på alternativ ?  => Switch på 
-    client.methods.randomDish( (data, response) => {
+    // Simulerar kategorival.
+    var choice = simulateUserInput('Huvudrätter');
+    client.methods.randomRestaurant( (data, response) => {
+        switch (choice) {
+            case choice = 'Förrätter':
+                console.log(data.data[0]);
+                break;
+            case choice = 'Huvudrätter':
+                console.log(data.data[1]);
+                break;
+            default:
+                break;
+        }
         console.log(data.data[0]);
     });
 }
