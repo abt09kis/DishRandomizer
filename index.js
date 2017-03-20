@@ -49,6 +49,7 @@ function getRandomizedRestaurant(clientKey) {
                 console.log(data.data[1]);
                 break;
             default:
+                console.log(data.data[1]);
                 break;
         }
         console.log(data.data[0]);
