@@ -1,0 +1,17 @@
+{
+  "name": "takeawayrandomizer",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mysql": "^2.13.0",
+    "node-rest-client": "^3.0.3"
+  },
+  "description": "backend to facilitate takeawayrandomizer users to save previous randomizations and to facilitate certain functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Ispiroglu Lindblad",
+  "license": "Apache-2.0"
+}
