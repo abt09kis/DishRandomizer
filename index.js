@@ -37,16 +37,6 @@ function getRandomizedRestaurant(clientKey) {
     // Köra switch på index beroende på alternativ ?  => Switch på 
     client.methods.randomDish( (data, response) => {
         console.log(data.data[0]);
-        //
-        switch ('') {
-            case value:
-                
-                break;
-        
-            default:
-                break;
-        }
-
     });
 }
 
