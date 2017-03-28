@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "express": "^4.14.1",
-    "mysql": "^2.13.0",
-    "node-rest-client": "^3.0.3"
+    "node-rest-client": "^3.0.3",
+    "mongodb" : "^2.2.25"
   },
   "description": "backend to facilitate takeawayrandomizer users to save previous randomizations and to facilitate certain functionality",
   "main": "index.js",
