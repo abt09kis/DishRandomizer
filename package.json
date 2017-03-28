@@ -4,7 +4,8 @@
   "dependencies": {
     "express": "^4.14.1",
     "node-rest-client": "^3.0.3",
-    "mongodb" : "^2.2.25"
+    "mongodb" : "^2.2.25",
+    "mongoose": "^4.9.2"
   },
   "description": "backend to facilitate takeawayrandomizer users to save previous randomizations and to facilitate certain functionality",
   "main": "index.js",
