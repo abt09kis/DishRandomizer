@@ -16,7 +16,7 @@ function restaurantsInPostalCode(postalCode) {
     client.methods.getRestaurantJSON((data , response) => {
 
         // data partition of JSON string contains all available restaurants.
-        console.log(data.data.length);
+        console.log("Restaurant - " + data.data.length);
 
         var randomNbr = getRandomIntInc(0, data.data.length);
 
@@ -41,18 +41,22 @@ function getRandomizedRestaurant(clientKey) {
     // Simulerar kategorival.
     var choice = simulateUserInput('Huvudrätter');
     client.methods.randomRestaurant( (data, response) => {
+       /*
         switch (choice) {
             case choice = 'Förrätter':
-                console.log(data.data[0]);
+                //console.log(data.data[0]);
                 break;
             case choice = 'Huvudrätter':
-                console.log(data.data[1]);
+                //console.log(data.data[1]);
                 break;
             default:
-                console.log(data.data[1]);
+                //console.log(data.data[1]);
                 break;
-        }
-        console.log(data.data[0]);
+        }*/
+        var course = data.data[0].foodcourses[0];
+        var couseString = JSON.stringify(couse, )
+        console.log();
+        console.log("Meny typ - " + data.data[0].foodcourses[0].titlelabel.text);
     });
 }
 

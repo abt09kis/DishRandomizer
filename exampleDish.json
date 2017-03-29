@@ -1,0 +1,26 @@
+
+{   
+   "courseID":76230,
+   "menuCategoryID":9455,
+   "clientKey":"z73W0WoyyKxj0V7LZy",
+   "price1":108,
+   "price2":-1,
+   "hungrigPriceAdd":0,
+   "deliveryPriceAdd":10,
+   "maxExtras":0,
+   "noCoupon":0,
+   "url":"",
+   "hideApp":0,
+   "mediaURL":"https:\/\/static.restaurangonline.se\/appinfo\/z73W0WoyyKxj0V7LZy\/media\/720x1280\/media_101915.png",
+   "HasOptionsOrExtras":true,
+   "titlelabel":{  
+      "text":"SKROV ROYAL GEALTA MENY"
+   },
+   "bodylabel":{  
+      "text":"Nu kommer succ\u00e9burgaren Skrov Royal i ny tappning d\u00e4r tv\u00e5 tjocka skivor n\u00f6tk\u00f6tt m\u00f6ter kr\u00e4mig hamburgerost (Pepper jack) samt sweet chili-dressing. Serveras med strips och valfri dryck."
+   },
+   "options_count":{  
+      "courseID":76230,
+      "count":7
+   }
+}
