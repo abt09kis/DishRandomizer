@@ -1,5 +1,0 @@
-db.createUser( { user: "admin",
-                 pwd: "password",
-                 roles: [ { role: "dbAdmin", db: "TakeawayRandomizer" },
-                          "readWrite"] },
-               { w: "majority" , wtimeout: 5000 } )
