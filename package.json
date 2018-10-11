@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "dependencies": {
     "express": "^4.14.1",
-    "node-rest-client": "^3.0.3",
-    "mongodb" : "^2.2.25",
-    "mongoose": "^4.9.2",
-    "body-parser": "^1.17.1"
+    "node-rest-client": "^3.1.0",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.2",
+    "body-parser": "^1.18.3"
   },
   "description": "backend to facilitate takeawayrandomizer users to save previous randomizations and to facilitate certain functionality",
   "main": "index.js",

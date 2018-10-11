@@ -54,7 +54,7 @@ function getRandomizedRestaurant(clientKey) {
                 break;
         }*/
         var course = data.data[0].foodcourses[0];
-        var couseString = JSON.stringify(couse, )
+        var courseString = JSON.stringify(course);
         console.log();
         console.log("Meny typ - " + data.data[0].foodcourses[0].titlelabel.text);
     });
