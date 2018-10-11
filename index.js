@@ -10,8 +10,10 @@ var client = new Client();
  * Trying to recieve some rudamentary api calls using postal code 11628 - compare with browser. 
  * Using a registeredMethod in accordance to the node-rest-client spec..
  */
+
+ // https://api.hungrig.se/restaurants/search?city=norsborg&deliveryType=1&find=&zip=14557
 function restaurantsInPostalCode(postalCode) {
-    client.registerMethod("getRestaurantJSON", "https://api.hungrig.se/restaurants/search?deliveryType=1&zip=" + postalCode, "GET");
+    client.registerMethod("getRestaurantJSON", "https://api.hungrig.se/restaurants/search?city=" + city + "&deliveryType=1&find=&zip=" + zipCode, "GET");
     
     client.methods.getRestaurantJSON((data , response) => {
 
